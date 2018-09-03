@@ -5,3 +5,71 @@ body {
 	padding: 0 ;
 	margin: 0;
 }
+
+.cabecera {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: #1BA4C2;
+}
+
+.avatar {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.datosCabecera {
+	width: 100%;
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.datosCabecera h1 {
+	margin: 0 50px;
+}
+
+.navegador {
+	width: 100%;
+	background-color: black;
+}
+
+.navegador ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.navegador li {
+	display: inline;
+}
+
+.navegador a {
+	text-decoration: none;
+	color: white;
+}
+
+.navegador li{}
+
+.trabajo {
+	width: 100%;
+	height: 300px;
+	border: solid red;
+}
+
+.preparacion {
+	width: 100%;
+	height: 300px;
+	border: solid red;
+}
+
+.pie {
+	width: 100%;
+	height: 300px;
+	background-color: #1BA4C2;
+}
